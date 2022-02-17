@@ -36,7 +36,7 @@ nav {
 }
 
 section.hero {
-  height: 60vh;
+  height: 48vh;
   background-color: #f1f3ff;
   background-image: url(../images/bg_car.png);
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ section.hero {
 }
 
 .hero-content {
-  padding-top: 10rem;
+  padding-top: 7rem;
 }
 
 .hero-content > .title {
@@ -64,7 +64,7 @@ section.hero {
 }
 
 section.service {
-  padding: 150px 50px;
+  padding: 150px 50px 50px;
   display: flex;
   align-items: center;
   gap: 5rem;
@@ -100,7 +100,7 @@ section.service {
 }
 
 section.why-us {
-  margin-bottom: 100px;
+  padding: 80px 0px;
 }
 
 section.why-us > .title {
@@ -158,6 +158,10 @@ section.why-us > .desc {
   background-color: #5cb85f;
 }
 
+section.testimoni {
+  padding: 70px 0px;
+}
+
 .testimoni .title {
   font-size: 32px;
   font-weight: bold;
@@ -207,20 +211,20 @@ section.why-us > .desc {
   background-color: #5cb85f;
 }
 
-.btn-testi-nav > button:hover > svg {
-  color: #fff;
+.btn-testi-nav > button:hover > svg > path {
+  stroke: #fff;
 }
 
 .customPrevBtn {
-  padding: 4px 10px 5px 9px;
+  padding: 4px 8px 5.5px 7px;
 }
 
 .customNextBtn {
-  padding: 4px 9px 5px 10px;
+  padding: 4px 7px 5.5px 8px;
 }
 
 section.sewa {
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding: 5rem 0 4rem;
   background-color: #0d28a6;
   border-radius: 10px;
@@ -247,7 +251,7 @@ section.sewa {
 }
 
 section.faq {
-  margin-top: 7rem;
+  padding: 120px 0px;
   display: flex;
 }
 
@@ -271,7 +275,7 @@ section.faq {
 }
 
 footer {
-  margin: 10rem 0 7rem;
+  margin: 4rem 0 7rem;
 }
 
 .footer-menu a {
@@ -282,9 +286,11 @@ footer {
 
 .foot-contact-logo {
   background-color: #0d28a6;
-}
-
-.foot-contact-logo {
-  padding: 8px 9px 9px;
+  padding: 5.5px 7.5px;
   border-radius: 100%;
 }
+
+/* .foot-contact-logo {
+  padding: 8px 9px 9px;
+  border-radius: 100%;
+} */
