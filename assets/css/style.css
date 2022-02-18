@@ -20,9 +20,20 @@ nav {
 }
 
 .logo {
-  background-color: #0d28a6;
-  width: 100px;
-  height: 34px;
+  color: #21325e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #21325e;
+}
+
+.logo-title {
+  padding-left: 0.7rem;
+  border-left: 1px solid #21325e;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
 .menu-list {
