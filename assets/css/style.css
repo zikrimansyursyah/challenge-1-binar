@@ -173,6 +173,10 @@ section.testimoni {
   padding: 70px 0px;
 }
 
+.testimoni-carousel {
+  margin: 4rem 0;
+}
+
 .testimoni .title {
   font-size: 32px;
   font-weight: bold;
@@ -299,4 +303,33 @@ footer {
   background-color: #0d28a6;
   padding: 5.5px 7.5px;
   border-radius: 100%;
+}
+
+.owl-item.active.center {
+  z-index: 1;
+  border-radius: 10px;
+  border: 2px solid #89bdfd;
+  box-shadow: 0px 4px 40px 0px rgba(97, 97, 97, 0.29);
+  animation: scale-up-center 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.owl-carousel .owl-stage-outer {
+  overflow: unset;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
